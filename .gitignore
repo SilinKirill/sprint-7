@@ -1,0 +1,22 @@
+# Local Sprint 7 study context
+/docs/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+.gigaide/
+
+# OS
+.DS_Store
+Thumbs.db
