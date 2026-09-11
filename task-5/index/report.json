@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-Embedding-0.6B",
+  "model_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "dimension": 1024,
+  "query_prompt": "Instruct: Given a question, retrieve relevant passages from the knowledge base that answer the question.\nQuery: ",
+  "document_input": "title + two newlines + chunk text",
+  "device": "cuda",
+  "chunks": 45,
+  "documents": 31,
+  "base_artifact_sha256": {
+    "faiss.index": "c03fd1478484358741c548e48a24a17c9e815945d2f76a3bf47f345e5977818b",
+    "chunks.jsonl": "4edbcef32f85161ac46b2809a9c078653ad24c8b751b11d848ecc11869b4f158"
+  },
+  "attack_source": "task-5/malicious.txt",
+  "attack_sha256": "9a213083232ef553292bd5f620850e80dbc3890cdc5c21616d1f896363254360",
+  "attack_chunks_added": 1,
+  "attack_probe_rank": 1,
+  "build_seconds": 3.481,
+  "artifact_sha256": {
+    "faiss.index": "a2b1c885b35ec982a34905b74df8f499fd11b57fca279456189917532f53df0c",
+    "chunks.jsonl": "6b7b917be002a30da41165fdeb90554bdc7f936b7a31c6566fe7489867744ef8"
+  }
+}
