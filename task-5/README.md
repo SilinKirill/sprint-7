@@ -112,7 +112,7 @@ docker compose --env-file .\task-5\.env -f .\task-5\compose.yaml down
 
 Артефакты:
 
-- `index/` — FAISS-индекс, чанки и метаданные.
+- [index/](index/) — FAISS-индекс, чанки и метаданные.
 - [results/comparison.json](results/comparison.json) — сравнение пяти режимов.
 - [results/demo.txt](results/demo.txt) и [results/demo.json](results/demo.json) — десять запросов и ответы, результаты проверок.
 - [results/empty.json](results/empty.json) — тест с искусственно пустым контекстом.

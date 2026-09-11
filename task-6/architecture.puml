@@ -1,0 +1,27 @@
+@startuml
+title Task 6: daily local index update
+actor User
+node "Windows Task Scheduler\n18:00 daily; missed-run catch-up" as Scheduler
+folder "task-6/incoming/\neditable local source" as Source
+component "update_index.py\nlock + hashes + change detection" as Updater
+component "task-3 chunk_document\n100-300 words" as Splitter
+component "Qwen3-Embedding-0.6B\nsame pinned revision" as Encoder
+database "task-6/index/snapshot.zip\nFAISS + chunks + manifest" as Index
+file "task-6/logs/updates.jsonl" as Logs
+component "task-6/bot.py\nreload between requests" as Bot
+User --> Source : add / edit / remove
+Scheduler --> Updater : project Python
+Source --> Updater : scan + read locally
+Index --> Updater : reuse unchanged vectors
+Updater --> Splitter
+Splitter --> Encoder : only uncached chunk texts
+Encoder --> Updater : normalized vectors
+Updater --> Index : validate temporary ZIP, atomic replace
+Updater --> Logs : times, counts, size, errors
+Index --> Bot : consistent snapshot
+note right of Updater
+Failure: old snapshot stays usable.
+Scheduler retries twice.
+No Ollama call during indexing.
+end note
+@enduml

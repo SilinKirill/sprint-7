@@ -1,0 +1,6 @@
+/.env
+/__pycache__/
+/incoming/
+/index/.update.lock
+/index/*.tmp
+/.test-work/
