@@ -1,0 +1,18 @@
+{
+  "run_id": "d7508c4b6a29459d9692518d69628f83",
+  "judgments": {
+    "known_1": true,
+    "known_2": true,
+    "known_3": true,
+    "known_4": true,
+    "known_5": true,
+    "known_6": true,
+    "known_7": true,
+    "known_8": true,
+    "gap_1": true,
+    "gap_2": true,
+    "gap_3": true,
+    "absent_1": true
+  },
+  "notes": "Reviewed by Codex against golden_questions.json, reference quotes and the original task-6 source documents. All answers match the expected meaning; expected unknown responses are correct."
+}

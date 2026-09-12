@@ -1,0 +1,157 @@
+{
+  "model": "Qwen/Qwen3-Embedding-0.6B",
+  "model_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "dimension": 1024,
+  "device": "cuda",
+  "batch_size": 4,
+  "index_type": "IndexFlatIP",
+  "metric": "cosine (normalized vectors)",
+  "query_prompt": "Instruct: Given a question, retrieve relevant passages from the knowledge base that answer the question.\nQuery: ",
+  "document_prompt": "",
+  "document_input": "title + two newlines + chunk text",
+  "documents": 30,
+  "chunks": 44,
+  "splitter": "RecursiveCharacterTextSplitter",
+  "chunk_size_words": 300,
+  "minimum_chunk_words": 100,
+  "small_chunk_handling": "extend with adjacent source context; may overlap",
+  "min_chunk_words": 100,
+  "max_chunk_words": 290,
+  "model_load_seconds": 7.153,
+  "embedding_seconds": 1.265,
+  "total_seconds": 11.803,
+  "sources": [
+    {
+      "source": "task-2/knowledge_base/doc_01.md",
+      "sha256": "6cea4c0c8f192ede95f330d2d0d29b979badefaa4a31764a28408f9bc256df9b"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_02.md",
+      "sha256": "0dfe73a4f210e53c4f513ce57ca86b779f202d0aa5c54a417a55ec92da6decb0"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_03.md",
+      "sha256": "ee52784d29f7e0bad4c1900ce0f3ba6f702069d765b1f1cd160ffaf0ba1383ae"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_04.md",
+      "sha256": "086f21c9da41413195de9411b1f36913bd4e932112682e8424f98139f5cd69cb"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_05.md",
+      "sha256": "f11b77fca5e554ac9f438fde5f5a8cb4f2548bfcbaad08924b3fdd18adc5ffa0"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_06.md",
+      "sha256": "933043cc8b258f3efedae3a11ff785fb1265a39677a1675caf589465381c4013"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_07.md",
+      "sha256": "0aba1d4ec5c6057bb6d27b24e341dcc91768e3a4b33b43fc96faf95ef2fbf359"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_08.md",
+      "sha256": "1d773501991f40634106c43cd8eec433edd3a613652e7dee6a282b6b80f14d97"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_09.md",
+      "sha256": "932cfcd57b68154500e7203df3a20e7fa6bac031a8b14e5ffeeb01069a9abc18"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_10.md",
+      "sha256": "8cb743556d8971bde4fcdff7bb4f4a3025c87e55c4b1899d045cf1e38585e156"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_11.md",
+      "sha256": "8ce09c4786f14e5dd272e2159f971d0450f4dea06cc1a8d32ae5c23f8c512a2a"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_12.md",
+      "sha256": "e84c73530c520760703cafa28de4caaa1821c6205bd456af421f667e3f15878f"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_13.md",
+      "sha256": "a752b887e0b5b210bf7b5e783056de5cea122e195454bd998f562bc51184b9a8"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_14.md",
+      "sha256": "22d5dff898b6019ca9a9641d49b062a4525bca8cccbd5f9cbbc421bb4e9fe62e"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_15.md",
+      "sha256": "7750fc14318c4c5ec9ad90ab10ff7b77c7893a3b09002b1f23337bbb20e3599f"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_16.md",
+      "sha256": "1fcc2cb99683668913b7da71904fd9b7ed26a58dd4a4fb015cdec6ae82fec1e0"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_17.md",
+      "sha256": "facb8003831056477ec042551a462406ffe2577fd020299a74d4421177ab3a7d"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_18.md",
+      "sha256": "bf3f66fec7122798ac4381612c81af2e77a78624006be4ce0ed1b71296b7096b"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_19.md",
+      "sha256": "1aaf68732053502f5e10e1213b9a20f17e5cbe9a30f34e5a39fe5e470803e754"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_20.md",
+      "sha256": "fed557252ee5c1126d6912a31d61c6ae8f8abd0bce1726a078e471c8888d5b9f"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_21.md",
+      "sha256": "5f5c5df3c70ded39a63e6e04ce149306e2b0f55090afd97ca39d6e2de35e031b"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_22.md",
+      "sha256": "b5daafbbf59390a338a85d38bc24eac86a32c37f9492b8bbcdc1214305bafc4b"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_23.md",
+      "sha256": "0a7c80012ee30dd5e2ac1a46ef9360b79d74bb56adf30983ddca3a4b514b9b6a"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_24.md",
+      "sha256": "7b544a1961c524bd01684b688a54594aae69861bf077bd06e8167d3a9b4e0493"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_25.md",
+      "sha256": "5f2fdf60bc71612c51d46bf3710808f027bb2880459742dde3168380a18b34d9"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_26.md",
+      "sha256": "f4dc16633ce6d2f92a908fdc7ec25cf6fe79ca91e7f22b6ca8d8b255cd397a45"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_27.md",
+      "sha256": "c510d62b293cbe17e2fad48432d30b6db2b9a3e64413193ee25de0939cfc28f8"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_28.md",
+      "sha256": "553f09e853b40e504b1406f03850b4782ed0325fa9f3db505314d24c6065d904"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_29.md",
+      "sha256": "ae4ab56b491b807ba320677480ba83dbcf58ed9392edd523a90db39babca08a1"
+    },
+    {
+      "source": "task-2/knowledge_base/doc_30.md",
+      "sha256": "bd5212e5d60546c02f8a85caa6aafd1217b0163bacf3766439784c486fa2b1d2"
+    }
+  ],
+  "packages": {
+    "sentence-transformers": "5.7.0",
+    "transformers": "4.57.6",
+    "torch": "2.13.0+cu130",
+    "numpy": "2.5.3",
+    "faiss-cpu": "1.15.0",
+    "langchain-text-splitters": "1.1.2"
+  },
+  "artifact_sha256": {
+    "faiss.index": "c03fd1478484358741c548e48a24a17c9e815945d2f76a3bf47f345e5977818b",
+    "chunks.jsonl": "4edbcef32f85161ac46b2809a9c078653ad24c8b751b11d848ecc11869b4f158"
+  }
+}

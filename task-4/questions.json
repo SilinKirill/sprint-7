@@ -1,0 +1,42 @@
+[
+  {
+    "id": "known_1",
+    "question": "Which unit was afraid of flying and compensated by excelling at ground maintenance?",
+    "expected_status": "answered",
+    "expected_source": "task-2/knowledge_base/doc_29.md"
+  },
+  {
+    "id": "known_2",
+    "question": "Which medical assistant could use twenty retractable manipulator arms simultaneously?",
+    "expected_status": "answered",
+    "expected_source": "task-2/knowledge_base/doc_15.md"
+  },
+  {
+    "id": "known_3",
+    "question": "Which unit harassed a trooper by locking doors and running over their feet?",
+    "expected_status": "answered",
+    "expected_source": "task-2/knowledge_base/doc_19.md"
+  },
+  {
+    "id": "known_4",
+    "question": "Which droid was built into a light interceptor and had only a domed head instead of a full body?",
+    "expected_status": "answered",
+    "expected_source": "task-2/knowledge_base/doc_04.md"
+  },
+  {
+    "id": "known_5",
+    "question": "Which droid was considered its pilot's good luck charm and remained in the palace hangar during the invasion?",
+    "expected_status": "answered",
+    "expected_source": "task-2/knowledge_base/doc_03.md"
+  },
+  {
+    "id": "unknown_1",
+    "question": "What is the current air temperature in Paris?",
+    "expected_status": "unknown"
+  },
+  {
+    "id": "unknown_2",
+    "question": "What is the exact SHA-256 checksum of the firmware of the droid that was afraid of flying?",
+    "expected_status": "unknown"
+  }
+]

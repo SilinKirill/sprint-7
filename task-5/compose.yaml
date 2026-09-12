@@ -1,0 +1,42 @@
+name: sprint7-task5
+services:
+  bot:
+    build:
+      context: ..
+      dockerfile: task-5/Dockerfile
+    image: sprint7-task5:local
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      OLLAMA_URL: http://host.docker.internal:11434
+      EMBEDDING_DEVICE: cpu
+      EMBEDDING_OFFLINE: "true"
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+      HF_HOME: /cache/huggingface
+    volumes:
+      - type: bind
+        source: ./index
+        target: /app/task-5/index
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ../task-3/index
+        target: /app/task-3/index
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ../task-4/few_shot.json
+        target: /app/task-4/few_shot.json
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ${HF_CACHE_DIR:?Set HF_CACHE_DIR to the existing Hugging Face cache}
+        target: /cache/huggingface
+        bind:
+          create_host_path: false
+    restart: "no"

@@ -1,0 +1,6 @@
+/.env
+/__pycache__/
+/.test-work/
+/source_catalog.json
+/golden_questions.draft.json
+/golden_questions.progress.json

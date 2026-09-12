@@ -1,0 +1,2231 @@
+[
+  {
+    "id": "kenobi",
+    "type": "person",
+    "aliases": {
+      "Obi-Wan Kenobi": "{name}",
+      "Kenobi": "{last}"
+    }
+  },
+  {
+    "id": "secura",
+    "type": "person",
+    "aliases": {
+      "Aayla Secura": "{name}"
+    }
+  },
+  {
+    "id": "e3",
+    "type": "person",
+    "aliases": {
+      "Tion Medon": "{name}",
+      "Medon": "{last}"
+    }
+  },
+  {
+    "id": "e4",
+    "type": "person",
+    "aliases": {
+      "Cody": "{name}"
+    }
+  },
+  {
+    "id": "e5",
+    "type": "person",
+    "aliases": {
+      "Asajj Ventress": "{name}"
+    }
+  },
+  {
+    "id": "e6",
+    "type": "person",
+    "aliases": {
+      "Grievous": "{name}"
+    }
+  },
+  {
+    "id": "e7",
+    "type": "person",
+    "aliases": {
+      "Jek Porkins": "{name}",
+      "Porkins": "{last}"
+    }
+  },
+  {
+    "id": "e8",
+    "type": "person",
+    "aliases": {
+      "Biggs Darklighter": "{name}",
+      "Darklighter": "{last}"
+    }
+  },
+  {
+    "id": "luke",
+    "type": "person",
+    "aliases": {
+      "Luke Skywalker": "{name}",
+      "Luke": "{first}",
+      "Skywalker": "{last}"
+    }
+  },
+  {
+    "id": "anakin",
+    "type": "person",
+    "aliases": {
+      "Anakin Skywalker": "{name}",
+      "Darth Vader": "{name}",
+      "Vader": "{first}"
+    },
+    "name_template": "{first} {luke.last}"
+  },
+  {
+    "id": "e11",
+    "type": "person",
+    "aliases": {
+      "Ric Olié": "{name}",
+      "Olié": "{last}"
+    }
+  },
+  {
+    "id": "e12",
+    "type": "person",
+    "aliases": {
+      "Padmé Amidala": "{name}"
+    }
+  },
+  {
+    "id": "e13",
+    "type": "person",
+    "aliases": {
+      "Plo Koon": "{name}",
+      "Koon": "{last}"
+    }
+  },
+  {
+    "id": "e14",
+    "type": "person",
+    "aliases": {
+      "Jag": "{name}"
+    }
+  },
+  {
+    "id": "e15",
+    "type": "person",
+    "aliases": {
+      "Sheev Palpatine": "{name}",
+      "Darth Sidious": "{name}",
+      "Palpatine": "{last}",
+      "Sidious": "{last}"
+    }
+  },
+  {
+    "id": "e16",
+    "type": "person",
+    "aliases": {
+      "Tiaan Jerjerrod": "{name}",
+      "Jerjerrod": "{last}"
+    }
+  },
+  {
+    "id": "e17",
+    "type": "person",
+    "aliases": {
+      "Nebit": "{name}"
+    }
+  },
+  {
+    "id": "e18",
+    "type": "person",
+    "aliases": {
+      "Hondo Ohnaka": "{name}"
+    }
+  },
+  {
+    "id": "e19",
+    "type": "person",
+    "aliases": {
+      "Galen Marek": "{name}"
+    }
+  },
+  {
+    "id": "e20",
+    "type": "person",
+    "aliases": {
+      "Rahm Kota": "{name}"
+    }
+  },
+  {
+    "id": "bail",
+    "type": "person",
+    "aliases": {
+      "Bail Organa": "{name}"
+    }
+  },
+  {
+    "id": "e22",
+    "type": "person",
+    "aliases": {
+      "Qui-Gon Jinn": "{name}"
+    }
+  },
+  {
+    "id": "e23",
+    "type": "person",
+    "aliases": {
+      "Nute Gunray": "{name}",
+      "Gunray": "{last}"
+    }
+  },
+  {
+    "id": "e24",
+    "type": "person",
+    "aliases": {
+      "Rune Haako": "{name}"
+    }
+  },
+  {
+    "id": "e25",
+    "type": "person",
+    "aliases": {
+      "Daultay Dofine": "{name}",
+      "Dofine": "{last}"
+    }
+  },
+  {
+    "id": "jabba",
+    "type": "person",
+    "aliases": {
+      "Jabba Desilijic Tiure": "{name}",
+      "Jabba": "{first}"
+    }
+  },
+  {
+    "id": "e27",
+    "type": "person",
+    "aliases": {
+      "Opun Mcgrrrr": "{name}",
+      "Opun": "{first}",
+      "Mcgrrrr": "{last}"
+    }
+  },
+  {
+    "id": "takeel",
+    "type": "person",
+    "aliases": {
+      "Takeel": "{name}"
+    }
+  },
+  {
+    "id": "e29",
+    "type": "person",
+    "aliases": {
+      "Tols Vengra": "{name}"
+    }
+  },
+  {
+    "id": "e30",
+    "type": "person",
+    "aliases": {
+      "Het Nkik": "{name}"
+    }
+  },
+  {
+    "id": "zutton",
+    "type": "person",
+    "aliases": {
+      "Zutton": "{name}"
+    },
+    "name_template": "{first} {takeel.last}"
+  },
+  {
+    "id": "e32",
+    "type": "person",
+    "aliases": {
+      "Zuckuss": "{name}"
+    }
+  },
+  {
+    "id": "e33",
+    "type": "person",
+    "aliases": {
+      "Jon Vander": "{name}",
+      "Vander": "{last}"
+    }
+  },
+  {
+    "id": "e34",
+    "type": "person",
+    "aliases": {
+      "Cassian Jeron Andor": "{name}",
+      "Cassian Andor": "{name}",
+      "Andor": "{last}"
+    }
+  },
+  {
+    "id": "e35",
+    "type": "person",
+    "aliases": {
+      "Jyn Erso": "{name}",
+      "Erso": "{last}"
+    }
+  },
+  {
+    "id": "e36",
+    "type": "person",
+    "aliases": {
+      "Wedge Antilles": "{name}"
+    }
+  },
+  {
+    "id": "han",
+    "type": "person",
+    "aliases": {
+      "Han Solo": "{name}",
+      "Solo": "{last}"
+    }
+  },
+  {
+    "id": "e38",
+    "type": "person",
+    "aliases": {
+      "Carlist Rieekan": "{name}",
+      "Rieekan": "{last}"
+    }
+  },
+  {
+    "id": "e39",
+    "type": "person",
+    "aliases": {
+      "Wyron Serper": "{name}"
+    }
+  },
+  {
+    "id": "e40",
+    "type": "person",
+    "aliases": {
+      "Cad Bane": "{name}",
+      "Bane": "{last}"
+    }
+  },
+  {
+    "id": "ziro",
+    "type": "person",
+    "aliases": {
+      "Ziro Desilijic Tiure": "{name}",
+      "Ziro": "{first}"
+    },
+    "name_template": "{first} {jabba.last}"
+  },
+  {
+    "id": "e42",
+    "type": "person",
+    "aliases": {
+      "Shawn Valdez": "{name}",
+      "Valdez": "{last}"
+    }
+  },
+  {
+    "id": "e43",
+    "type": "person",
+    "aliases": {
+      "Temmin Wexley": "{name}",
+      "Wexley": "{last}"
+    }
+  },
+  {
+    "id": "e44",
+    "type": "person",
+    "aliases": {
+      "Lor San Tekka": "{name}"
+    }
+  },
+  {
+    "id": "e45",
+    "type": "person",
+    "aliases": {
+      "Poe Dameron": "{name}",
+      "Dameron": "{last}"
+    }
+  },
+  {
+    "id": "owen",
+    "type": "person",
+    "aliases": {
+      "Owen Lars": "{name}",
+      "Owen": "{first}",
+      "Lars": "{last}"
+    }
+  },
+  {
+    "id": "beru",
+    "type": "person",
+    "aliases": {
+      "Beru": "{name}"
+    },
+    "name_template": "{first} {owen.last}"
+  },
+  {
+    "id": "leia",
+    "type": "person",
+    "aliases": {
+      "Leia Organa": "{name}",
+      "Organa": "{last}"
+    },
+    "name_template": "{first} {bail.last}"
+  },
+  {
+    "id": "e49",
+    "type": "person",
+    "aliases": {
+      "Kaydel Ko Connix": "{name}",
+      "Connix": "{last}"
+    }
+  },
+  {
+    "id": "ben",
+    "type": "person",
+    "aliases": {
+      "Ben Solo": "{name}"
+    },
+    "name_template": "{first} {han.last}"
+  },
+  {
+    "id": "e51",
+    "type": "person",
+    "aliases": {
+      "Rey": "{name}"
+    }
+  },
+  {
+    "id": "e52",
+    "type": "person",
+    "aliases": {
+      "Jessika Pava": "{name}",
+      "Pava": "{last}"
+    }
+  },
+  {
+    "id": "e53",
+    "type": "person",
+    "aliases": {
+      "Trooper 1023": "{name}"
+    }
+  },
+  {
+    "id": "e54",
+    "type": "droid",
+    "aliases": {
+      "R4-G9": "{name}"
+    }
+  },
+  {
+    "id": "e55",
+    "type": "droid",
+    "aliases": {
+      "R5-D8": "{name}"
+    }
+  },
+  {
+    "id": "e56",
+    "type": "droid",
+    "aliases": {
+      "R2-A6": "{name}"
+    }
+  },
+  {
+    "id": "e57",
+    "type": "droid",
+    "aliases": {
+      "R4-F5": "{name}"
+    }
+  },
+  {
+    "id": "e58",
+    "type": "droid",
+    "aliases": {
+      "R5-J2": "{name}"
+    }
+  },
+  {
+    "id": "e59",
+    "type": "droid",
+    "aliases": {
+      "R3-T2": "{name}",
+      "R3": "{name}"
+    }
+  },
+  {
+    "id": "e60",
+    "type": "droid",
+    "aliases": {
+      "CZ-1": "{name}"
+    }
+  },
+  {
+    "id": "e61",
+    "type": "droid",
+    "aliases": {
+      "DD-BD": "{name}"
+    }
+  },
+  {
+    "id": "e62",
+    "type": "droid",
+    "aliases": {
+      "R2-Q5": "{name}"
+    }
+  },
+  {
+    "id": "e63",
+    "type": "droid",
+    "aliases": {
+      "TC-14": "{name}"
+    }
+  },
+  {
+    "id": "e64",
+    "type": "droid",
+    "aliases": {
+      "U-3PO": "{name}",
+      "Yoo-Threepio": "{name}"
+    }
+  },
+  {
+    "id": "e65",
+    "type": "droid",
+    "aliases": {
+      "CZ-3": "{name}"
+    }
+  },
+  {
+    "id": "e66",
+    "type": "droid",
+    "aliases": {
+      "FX-7": "{name}",
+      "FX7": "{name}",
+      "Fixit": "{name}"
+    }
+  },
+  {
+    "id": "e67",
+    "type": "droid",
+    "aliases": {
+      "R2-BHD": "{name}",
+      "Tooby": "{name}"
+    }
+  },
+  {
+    "id": "e68",
+    "type": "droid",
+    "aliases": {
+      "R2-F2": "{name}"
+    }
+  },
+  {
+    "id": "e69",
+    "type": "droid",
+    "aliases": {
+      "R2-Q2": "{name}"
+    }
+  },
+  {
+    "id": "e70",
+    "type": "droid",
+    "aliases": {
+      "R2-Q9": "{name}"
+    }
+  },
+  {
+    "id": "e71",
+    "type": "droid",
+    "aliases": {
+      "R3-Y2": "{name}"
+    }
+  },
+  {
+    "id": "e72",
+    "type": "droid",
+    "aliases": {
+      "R5-S9": "{name}"
+    }
+  },
+  {
+    "id": "e73",
+    "type": "droid",
+    "aliases": {
+      "R5-M2": "{name}",
+      "Arfive-Emmtoo": "{name}"
+    }
+  },
+  {
+    "id": "e74",
+    "type": "droid",
+    "aliases": {
+      "R6-D8": "{name}",
+      "R6": "{name}"
+    }
+  },
+  {
+    "id": "e75",
+    "type": "droid",
+    "aliases": {
+      "R2-A5": "{name}",
+      "Ayfive": "{name}"
+    }
+  },
+  {
+    "id": "e76",
+    "type": "droid",
+    "aliases": {
+      "LIN-V8K": "{name}"
+    }
+  },
+  {
+    "id": "e77",
+    "type": "droid",
+    "aliases": {
+      "WED-15-77": "{name}"
+    }
+  },
+  {
+    "id": "e78",
+    "type": "droid",
+    "aliases": {
+      "WED-15-I662": "{name}",
+      "Eye-Six-Six-Too": "{name}",
+      "I662": "{name}"
+    }
+  },
+  {
+    "id": "e79",
+    "type": "droid",
+    "aliases": {
+      "R2-SHP": "{name}",
+      "Shep": "{name}"
+    }
+  },
+  {
+    "id": "e80",
+    "type": "droid",
+    "aliases": {
+      "D4-R4B": "{name}",
+      "Arforb": "{name}"
+    }
+  },
+  {
+    "id": "e81",
+    "type": "droid",
+    "aliases": {
+      "R0-4L0": "{name}",
+      "ROLO": "{name}"
+    }
+  },
+  {
+    "id": "e82",
+    "type": "droid",
+    "aliases": {
+      "R4-P17": "{name}"
+    }
+  },
+  {
+    "id": "e83",
+    "type": "droid",
+    "aliases": {
+      "R2-D2": "{name}"
+    }
+  },
+  {
+    "id": "e84",
+    "type": "droid",
+    "aliases": {
+      "BB-8": "{name}"
+    }
+  },
+  {
+    "id": "e85",
+    "type": "droid",
+    "aliases": {
+      "R7-D4": "{name}"
+    }
+  },
+  {
+    "id": "e86",
+    "type": "droid",
+    "aliases": {
+      "C-3PO": "{name}"
+    }
+  },
+  {
+    "id": "e87",
+    "type": "droid",
+    "aliases": {
+      "L3-37": "{name}"
+    }
+  },
+  {
+    "id": "e88",
+    "type": "droid",
+    "aliases": {
+      "DK-RA-43": "{name}"
+    }
+  },
+  {
+    "id": "e89",
+    "type": "droid",
+    "aliases": {
+      "IG-88A": "{name}"
+    }
+  },
+  {
+    "id": "e90",
+    "type": "droid",
+    "aliases": {
+      "2-1B": "{name}"
+    }
+  },
+  {
+    "id": "e91",
+    "type": "droid",
+    "aliases": {
+      "4-LOM": "{name}"
+    }
+  },
+  {
+    "id": "e92",
+    "type": "droid",
+    "aliases": {
+      "R4-M9": "{name}"
+    }
+  },
+  {
+    "id": "e93",
+    "type": "droid",
+    "aliases": {
+      "TK-423": "{name}"
+    }
+  },
+  {
+    "id": "e94",
+    "type": "droid",
+    "aliases": {
+      "TK-293": "{name}"
+    }
+  },
+  {
+    "id": "e95",
+    "type": "droid",
+    "aliases": {
+      "XJ9-CS14": "{name}"
+    }
+  },
+  {
+    "id": "e96",
+    "type": "droid",
+    "aliases": {
+      "R4-M1": "{name}"
+    }
+  },
+  {
+    "id": "e97",
+    "type": "droid",
+    "aliases": {
+      "HELIOS-3E": "{name}"
+    }
+  },
+  {
+    "id": "e98",
+    "type": "droid",
+    "aliases": {
+      "Mister Bones": "{name}"
+    }
+  },
+  {
+    "id": "e99",
+    "type": "droid",
+    "aliases": {
+      "R5-D4": "{name}"
+    }
+  },
+  {
+    "id": "e100",
+    "type": "droid",
+    "aliases": {
+      "R6-LE5": "{name}"
+    }
+  },
+  {
+    "id": "utapau",
+    "type": "place",
+    "aliases": {
+      "Utapau": "{name}"
+    }
+  },
+  {
+    "id": "coruscant",
+    "type": "place",
+    "aliases": {
+      "Coruscant": "{name}"
+    }
+  },
+  {
+    "id": "yavin",
+    "type": "place",
+    "aliases": {
+      "Yavin": "{name}"
+    }
+  },
+  {
+    "id": "naboo",
+    "type": "place",
+    "aliases": {
+      "Naboo": "{name}"
+    }
+  },
+  {
+    "id": "endor",
+    "type": "place",
+    "aliases": {
+      "Endor": "{name}"
+    }
+  },
+  {
+    "id": "tatooine",
+    "type": "place",
+    "aliases": {
+      "Tatooine": "{name}"
+    }
+  },
+  {
+    "id": "cato",
+    "type": "place",
+    "aliases": {
+      "Cato Neimoidia": "{name}"
+    }
+  },
+  {
+    "id": "kessel",
+    "type": "place",
+    "aliases": {
+      "Kessel": "{name}"
+    }
+  },
+  {
+    "id": "bespin",
+    "type": "place",
+    "aliases": {
+      "Bespin": "{name}"
+    }
+  },
+  {
+    "id": "ralltiir",
+    "type": "place",
+    "aliases": {
+      "Ralltiir": "{name}"
+    }
+  },
+  {
+    "id": "alderaan",
+    "type": "place",
+    "aliases": {
+      "Alderaan": "{name}"
+    }
+  },
+  {
+    "id": "hoth",
+    "type": "place",
+    "aliases": {
+      "Hoth": "{name}"
+    }
+  },
+  {
+    "id": "jedha",
+    "type": "place",
+    "aliases": {
+      "Jedha": "{name}"
+    }
+  },
+  {
+    "id": "scarif",
+    "type": "place",
+    "aliases": {
+      "Scarif": "{name}"
+    }
+  },
+  {
+    "id": "dqar",
+    "type": "place",
+    "aliases": {
+      "D'Qar": "{name}"
+    }
+  },
+  {
+    "id": "ilum",
+    "type": "place",
+    "aliases": {
+      "Ilum": "{name}"
+    }
+  },
+  {
+    "id": "exegol",
+    "type": "place",
+    "aliases": {
+      "Exegol": "{name}"
+    }
+  },
+  {
+    "id": "ajan",
+    "type": "place",
+    "aliases": {
+      "Ajan Kloss": "{name}"
+    }
+  },
+  {
+    "id": "kijimi",
+    "type": "place",
+    "aliases": {
+      "Kijimi": "{name}"
+    }
+  },
+  {
+    "id": "takodana",
+    "type": "place",
+    "aliases": {
+      "Takodana": "{name}"
+    }
+  },
+  {
+    "id": "anoat",
+    "type": "place",
+    "aliases": {
+      "Anoat": "{name}"
+    }
+  },
+  {
+    "id": "tatoo",
+    "type": "place",
+    "aliases": {
+      "Tatoo": "{name}"
+    }
+  },
+  {
+    "id": "newholstice",
+    "type": "place",
+    "aliases": {
+      "New Holstice": "{name}"
+    }
+  },
+  {
+    "id": "e124",
+    "type": "place",
+    "aliases": {
+      "Pau City": "{name}"
+    }
+  },
+  {
+    "id": "e125",
+    "type": "place",
+    "aliases": {
+      "Mos Eisley": "{name}"
+    }
+  },
+  {
+    "id": "e126",
+    "type": "place",
+    "aliases": {
+      "Corporations Road": "{name}"
+    },
+    "name_template": "{name} Road"
+  },
+  {
+    "id": "e127",
+    "type": "place",
+    "aliases": {
+      "Chalmun's Spaceport Cantina": "{name}"
+    },
+    "name_template": "{name} Cantina"
+  },
+  {
+    "id": "e128",
+    "type": "place",
+    "aliases": {
+      "Jundland Wastes": "{name}"
+    },
+    "name_template": "{name} Wastes"
+  },
+  {
+    "id": "e129",
+    "type": "place",
+    "aliases": {
+      "Dune Sea": "{name}"
+    },
+    "name_template": "{name} Desert"
+  },
+  {
+    "id": "greattemple",
+    "type": "place",
+    "aliases": {
+      "Great Temple": "{name}",
+      "Yavin Base": "{name}"
+    },
+    "name_template": "{name} Sanctuary"
+  },
+  {
+    "id": "e131",
+    "type": "place",
+    "aliases": {
+      "Echo Base": "{name}"
+    },
+    "name_template": "{name} Base"
+  },
+  {
+    "id": "e132",
+    "type": "place",
+    "aliases": {
+      "Vapor Room": "{name}"
+    },
+    "name_template": "{name} Lounge"
+  },
+  {
+    "id": "e133",
+    "type": "place",
+    "aliases": {
+      "Hangar 272": "{name}"
+    },
+    "name_template": "{name} Hangar"
+  },
+  {
+    "id": "e134",
+    "type": "place",
+    "aliases": {
+      "Theed Royal Palace": "{name}"
+    },
+    "name_template": "{name} Royal Palace"
+  },
+  {
+    "id": "e135",
+    "type": "place",
+    "aliases": {
+      "Jabba's Palace": "{name}"
+    },
+    "name_template": "{jabba.first}'s Palace"
+  },
+  {
+    "id": "e136",
+    "type": "place",
+    "aliases": {
+      "Senate Office Building": "{name}"
+    },
+    "name_template": "{name} Senate Building"
+  },
+  {
+    "id": "e137",
+    "type": "place",
+    "aliases": {
+      "Republic Judiciary Central Detention Center": "{name}"
+    },
+    "name_template": "{republic.name} Central Detention Center"
+  },
+  {
+    "id": "e138",
+    "type": "place",
+    "aliases": {
+      "Outer Rim Territories": "{name}"
+    },
+    "name_template": "{name} Frontier"
+  },
+  {
+    "id": "e139",
+    "type": "event",
+    "aliases": {
+      "Order 66": "{name}"
+    },
+    "name_template": "Directive {name}"
+  },
+  {
+    "id": "e140",
+    "type": "event",
+    "aliases": {
+      "Clone Wars": "{name}"
+    },
+    "name_template": "{root} Wars"
+  },
+  {
+    "id": "e141",
+    "type": "event",
+    "aliases": {
+      "Galactic Civil War": "{name}"
+    },
+    "name_template": "{root} Civil War"
+  },
+  {
+    "id": "e142",
+    "type": "event",
+    "aliases": {
+      "Cold War": "{name}"
+    },
+    "name_template": "{root} Standoff"
+  },
+  {
+    "id": "e143",
+    "type": "event",
+    "aliases": {
+      "First Order-Resistance War": "{name}"
+    },
+    "name_template": "{root} War"
+  },
+  {
+    "id": "e144",
+    "type": "event",
+    "aliases": {
+      "Hosnian Cataclysm": "{name}"
+    },
+    "name_template": "{root} Cataclysm"
+  },
+  {
+    "id": "e145",
+    "type": "event",
+    "aliases": {
+      "Ruusan Reformations": "{name}"
+    },
+    "name_template": "{root} Reformations"
+  },
+  {
+    "id": "e146",
+    "type": "species",
+    "aliases": {
+      "Pau'an": "{name}"
+    }
+  },
+  {
+    "id": "e147",
+    "type": "species",
+    "aliases": {
+      "Utai": "{name}"
+    }
+  },
+  {
+    "id": "e148",
+    "type": "species",
+    "aliases": {
+      "Kaleesh": "{name}"
+    }
+  },
+  {
+    "id": "e149",
+    "type": "species",
+    "aliases": {
+      "Stacchati": "{name}"
+    }
+  },
+  {
+    "id": "e150",
+    "type": "species",
+    "aliases": {
+      "Morseerian": "{name}"
+    }
+  },
+  {
+    "id": "e151",
+    "type": "species",
+    "aliases": {
+      "Hutt": "{name}"
+    }
+  },
+  {
+    "id": "e152",
+    "type": "species",
+    "aliases": {
+      "Jawa": "{name}",
+      "Jawas": "{name}s"
+    }
+  },
+  {
+    "id": "e153",
+    "type": "species",
+    "aliases": {
+      "Neimoidian": "{name}",
+      "Neimoidians": "{name}s"
+    }
+  },
+  {
+    "id": "e154",
+    "type": "species",
+    "aliases": {
+      "ronto": "{name}",
+      "rontos": "{name}s"
+    }
+  },
+  {
+    "id": "e155",
+    "type": "species",
+    "aliases": {
+      "wampa": "{name}",
+      "wampas": "{name}s"
+    }
+  },
+  {
+    "id": "empire",
+    "type": "organization",
+    "aliases": {
+      "Galactic Empire": "{name}",
+      "Empire": "{name}",
+      "Imperial": "{root}ian",
+      "Imperials": "{root}ians"
+    },
+    "name_template": "{root} Dominion"
+  },
+  {
+    "id": "republic",
+    "type": "organization",
+    "aliases": {
+      "Galactic Republic": "{name}",
+      "Republic": "{name}"
+    },
+    "name_template": "{root} Commonwealth"
+  },
+  {
+    "id": "alliance",
+    "type": "organization",
+    "aliases": {
+      "Alliance to Restore the Republic": "{name}",
+      "Rebel Alliance": "{name}",
+      "Alliance": "{name}",
+      "Rebellion": "{name}",
+      "Rebel": "{root}an",
+      "rebels": "{root}ans"
+    },
+    "name_template": "{root} Coalition"
+  },
+  {
+    "id": "resistance",
+    "type": "organization",
+    "aliases": {
+      "Resistance": "{name}"
+    },
+    "name_template": "{root} Front"
+  },
+  {
+    "id": "firstorder",
+    "type": "organization",
+    "aliases": {
+      "First Order": "{name}"
+    },
+    "name_template": "{root} Directorate"
+  },
+  {
+    "id": "federation",
+    "type": "organization",
+    "aliases": {
+      "Trade Federation": "{name}",
+      "Federation": "{name}"
+    },
+    "name_template": "{root} Trade League"
+  },
+  {
+    "id": "e162",
+    "type": "organization",
+    "aliases": {
+      "Confederacy of Independent Systems": "{name}"
+    },
+    "name_template": "{root} Confederation"
+  },
+  {
+    "id": "e163",
+    "type": "organization",
+    "aliases": {
+      "Industrial Automaton": "{name}"
+    },
+    "name_template": "{root} Automatics"
+  },
+  {
+    "id": "e164",
+    "type": "organization",
+    "aliases": {
+      "Cybot Galactica": "{name}"
+    },
+    "name_template": "{root} Cybernetics"
+  },
+  {
+    "id": "e165",
+    "type": "organization",
+    "aliases": {
+      "Serv-O-Droid, Inc.": "{name}"
+    },
+    "name_template": "{root} Robotics, Inc."
+  },
+  {
+    "id": "e166",
+    "type": "organization",
+    "aliases": {
+      "Pyke Syndicate": "{name}"
+    },
+    "name_template": "{root} Syndicate"
+  },
+  {
+    "id": "e167",
+    "type": "organization",
+    "aliases": {
+      "Massassi Group": "{name}"
+    },
+    "name_template": "{root} Group"
+  },
+  {
+    "id": "e168",
+    "type": "organization",
+    "aliases": {
+      "212th Attack Battalion": "{name}"
+    },
+    "name_template": "{root} Assault Battalion"
+  },
+  {
+    "id": "e169",
+    "type": "organization",
+    "aliases": {
+      "7th Sky Corps": "{name}"
+    },
+    "name_template": "{root} Sky Corps"
+  },
+  {
+    "id": "e170",
+    "type": "organization",
+    "aliases": {
+      "501st Legion": "{name}"
+    },
+    "name_template": "{root} Legion"
+  },
+  {
+    "id": "redsquad",
+    "type": "organization",
+    "aliases": {
+      "Red Squadron": "{name}"
+    },
+    "name_template": "{root} Squadron"
+  },
+  {
+    "id": "goldsquad",
+    "type": "organization",
+    "aliases": {
+      "Gold Squadron": "{name}"
+    },
+    "name_template": "{root} Squadron"
+  },
+  {
+    "id": "bluesquad",
+    "type": "organization",
+    "aliases": {
+      "Blue Squadron": "{name}"
+    },
+    "name_template": "{root} Squadron"
+  },
+  {
+    "id": "e174",
+    "type": "organization",
+    "aliases": {
+      "Black Squadron": "{name}"
+    },
+    "name_template": "{root} Squadron"
+  },
+  {
+    "id": "e175",
+    "type": "organization",
+    "aliases": {
+      "Bravo Squadron": "{name}"
+    },
+    "name_template": "{root} Squadron"
+  },
+  {
+    "id": "e176",
+    "type": "organization",
+    "aliases": {
+      "Naboo Royal Space Fighter Corps": "{name}"
+    },
+    "name_template": "{naboo.name} Royal Space Fighter Corps"
+  },
+  {
+    "id": "e177",
+    "type": "organization",
+    "aliases": {
+      "Royal Naboo Security Forces": "{name}"
+    },
+    "name_template": "Royal {naboo.name} Security Forces"
+  },
+  {
+    "id": "e178",
+    "type": "organization",
+    "aliases": {
+      "Rebel Alliance Intelligence Service": "{name}",
+      "Alliance Intelligence": "{name}"
+    },
+    "name_template": "{alliance.name} Intelligence Service"
+  },
+  {
+    "id": "e179",
+    "type": "organization",
+    "aliases": {
+      "Alliance Fleet": "{name}"
+    },
+    "name_template": "{alliance.name} Fleet"
+  },
+  {
+    "id": "e180",
+    "type": "organization",
+    "aliases": {
+      "Alliance High Command": "{name}"
+    },
+    "name_template": "{alliance.name} High Command"
+  },
+  {
+    "id": "e181",
+    "type": "organization",
+    "aliases": {
+      "Rebel Alliance Starfighter Corps": "{name}"
+    },
+    "name_template": "{alliance.name} Starfighter Corps"
+  },
+  {
+    "id": "e182",
+    "type": "organization",
+    "aliases": {
+      "Resistance Starfighter Corps": "{name}"
+    },
+    "name_template": "{resistance.name} Starfighter Corps"
+  },
+  {
+    "id": "e183",
+    "type": "organization",
+    "aliases": {
+      "Citizens' Fleet": "{name}"
+    },
+    "name_template": "{root} Volunteer Fleet"
+  },
+  {
+    "id": "e184",
+    "type": "organization",
+    "aliases": {
+      "Royal House of Alderaan": "{name}"
+    },
+    "name_template": "Royal House of {alderaan.name}"
+  },
+  {
+    "id": "e185",
+    "type": "organization",
+    "aliases": {
+      "Diplomatic Corps": "{name}"
+    },
+    "name_template": "{alderaan.name} Diplomatic Service"
+  },
+  {
+    "id": "e186",
+    "type": "organization",
+    "aliases": {
+      "Coruscant Police": "{name}"
+    },
+    "name_template": "{coruscant.name} Police"
+  },
+  {
+    "id": "jedi",
+    "type": "organization",
+    "aliases": {
+      "Jedi": "{name}",
+      "Jedi-interface": "{name}-interface"
+    },
+    "name_template": "{root}ari"
+  },
+  {
+    "id": "e188",
+    "type": "organization",
+    "aliases": {
+      "Jedi Order": "{name}"
+    },
+    "name_template": "Order of the {jedi.name}"
+  },
+  {
+    "id": "e189",
+    "type": "organization",
+    "aliases": {
+      "Jedi High Council": "{name}"
+    },
+    "name_template": "{jedi.name} High Council"
+  },
+  {
+    "id": "e190",
+    "type": "place",
+    "aliases": {
+      "Jedi Temple": "{name}"
+    },
+    "name_template": "{jedi.name} Temple"
+  },
+  {
+    "id": "e191",
+    "type": "place",
+    "aliases": {
+      "Analysis Rooms": "{name}"
+    },
+    "name_template": "{root} Laboratories"
+  },
+  {
+    "id": "sith",
+    "type": "organization",
+    "aliases": {
+      "Sith": "{name}"
+    },
+    "name_template": "{root}ari"
+  },
+  {
+    "id": "e193",
+    "type": "organization",
+    "aliases": {
+      "Sith Eternal": "{name}"
+    },
+    "name_template": "{sith.name} Covenant"
+  },
+  {
+    "id": "e194",
+    "type": "organization",
+    "aliases": {
+      "Inquisitors": "{name}"
+    },
+    "name_template": "{root} Wardens"
+  },
+  {
+    "id": "e195",
+    "type": "rank",
+    "aliases": {
+      "Moff": "{name}"
+    },
+    "name_template": "{root} Prefect"
+  },
+  {
+    "id": "e196",
+    "type": "rank",
+    "aliases": {
+      "Clone Captain": "{name}"
+    },
+    "name_template": "Replicant Captain"
+  },
+  {
+    "id": "e197",
+    "type": "rank",
+    "aliases": {
+      "Clone Marshal Commander": "{name}"
+    },
+    "name_template": "Replicant Marshal Commander"
+  },
+  {
+    "id": "e198",
+    "type": "technology",
+    "aliases": {
+      "clone": "{name}",
+      "clones": "{name}s"
+    },
+    "name_template": "replicant"
+  },
+  {
+    "id": "e199",
+    "type": "technology",
+    "aliases": {
+      "droid": "{name}",
+      "droids": "{name}s"
+    },
+    "name_template": "automaton"
+  },
+  {
+    "id": "e200",
+    "type": "technology",
+    "aliases": {
+      "astromech": "{name}",
+      "astromechs": "{name}s"
+    },
+    "name_template": "navitech"
+  },
+  {
+    "id": "e201",
+    "type": "technology",
+    "aliases": {
+      "adminmech": "{name}"
+    },
+    "name_template": "logimech"
+  },
+  {
+    "id": "e202",
+    "type": "technology",
+    "aliases": {
+      "buzz droid": "{name}",
+      "buzz droids": "{name}s"
+    },
+    "name_template": "needle automaton"
+  },
+  {
+    "id": "e203",
+    "type": "technology",
+    "aliases": {
+      "blaster": "{name}"
+    },
+    "name_template": "pulse emitter"
+  },
+  {
+    "id": "e204",
+    "type": "technology",
+    "aliases": {
+      "turbolaser": "{name}"
+    },
+    "name_template": "cascade emitter"
+  },
+  {
+    "id": "e205",
+    "type": "technology",
+    "aliases": {
+      "hyperspace": "{name}"
+    },
+    "name_template": "slipspace"
+  },
+  {
+    "id": "e206",
+    "type": "technology",
+    "aliases": {
+      "repulsorlift": "{name}",
+      "repulsorlift-equipped": "{name}-equipped"
+    },
+    "name_template": "gravity lift"
+  },
+  {
+    "id": "e207",
+    "type": "technology",
+    "aliases": {
+      "plastoid": "{name}"
+    },
+    "name_template": "ceramaplast"
+  },
+  {
+    "id": "e208",
+    "type": "technology",
+    "aliases": {
+      "comlink": "{name}"
+    },
+    "name_template": "voice relay"
+  },
+  {
+    "id": "e209",
+    "type": "technology",
+    "aliases": {
+      "holoprojector": "{name}"
+    },
+    "name_template": "volume projector"
+  },
+  {
+    "id": "e210",
+    "type": "technology",
+    "aliases": {
+      "holovid": "{name}"
+    },
+    "name_template": "volume recording"
+  },
+  {
+    "id": "e211",
+    "type": "technology",
+    "aliases": {
+      "verbobrains": "{name}"
+    },
+    "name_template": "cognitive cores"
+  },
+  {
+    "id": "e212",
+    "type": "technology",
+    "aliases": {
+      "vocabulators": "{name}"
+    },
+    "name_template": "speech modules"
+  },
+  {
+    "id": "e213",
+    "type": "technology",
+    "aliases": {
+      "sandcrawler": "{name}",
+      "sandcrawlers": "{name}s"
+    },
+    "name_template": "dune hauler"
+  },
+  {
+    "id": "e214",
+    "type": "technology",
+    "aliases": {
+      "stormtrooper": "{name}",
+      "stormtroopers": "{name}s"
+    },
+    "name_template": "armored trooper"
+  },
+  {
+    "id": "e215",
+    "type": "technology",
+    "aliases": {
+      "sandtrooper": "{name}",
+      "sandtroopers": "{name}s"
+    },
+    "name_template": "desert trooper"
+  },
+  {
+    "id": "e216",
+    "type": "technology",
+    "aliases": {
+      "Binary": "{name}"
+    },
+    "name_template": "{root} Code"
+  },
+  {
+    "id": "e217",
+    "type": "technology",
+    "aliases": {
+      "S-thread": "{name}"
+    },
+    "name_template": "{root} channel"
+  },
+  {
+    "id": "e218",
+    "type": "technology",
+    "aliases": {
+      "Force": "{name}"
+    },
+    "name_template": "{root} Resonance",
+    "case_sensitive": [
+      "Force"
+    ]
+  },
+  {
+    "id": "e219",
+    "type": "technology",
+    "aliases": {
+      "TranLang III": "{name}"
+    },
+    "name_template": "{root} III"
+  },
+  {
+    "id": "e220",
+    "type": "technology",
+    "aliases": {
+      "proton torpedo": "{name}"
+    },
+    "name_template": "nucleon torpedo"
+  },
+  {
+    "id": "e221",
+    "type": "technology",
+    "aliases": {
+      "BBY": "{name}"
+    },
+    "name_template": "BCE"
+  },
+  {
+    "id": "e222",
+    "type": "technology",
+    "aliases": {
+      "ABY": "{name}"
+    },
+    "name_template": "ACE"
+  },
+  {
+    "id": "rseries",
+    "type": "model",
+    "aliases": {
+      "R-series": "{name}"
+    },
+    "name_template": "{root}-series"
+  },
+  {
+    "id": "e224",
+    "type": "model",
+    "aliases": {
+      "R2-series": "{name}",
+      "R2": "{root}",
+      "R2 unit": "{root} unit",
+      "R2 units": "{root} units"
+    }
+  },
+  {
+    "id": "e225",
+    "type": "model",
+    "aliases": {
+      "R3-series": "{name}"
+    }
+  },
+  {
+    "id": "r4",
+    "type": "model",
+    "aliases": {
+      "R4-series": "{name}",
+      "R4": "{root}"
+    }
+  },
+  {
+    "id": "e227",
+    "type": "model",
+    "aliases": {
+      "R4-P": "{name}"
+    },
+    "name_template": "{r4.root}-P"
+  },
+  {
+    "id": "e228",
+    "type": "model",
+    "aliases": {
+      "R5-series": "{name}",
+      "R5 series": "{name}",
+      "R5": "{root}"
+    }
+  },
+  {
+    "id": "e229",
+    "type": "model",
+    "aliases": {
+      "R6-series": "{name}"
+    }
+  },
+  {
+    "id": "sp4",
+    "type": "model",
+    "aliases": {
+      "SP-4": "{name}",
+      "SP-4s": "{name}s"
+    }
+  },
+  {
+    "id": "e231",
+    "type": "model",
+    "aliases": {
+      "SP-ISC": "{name}"
+    },
+    "name_template": "{sp4.root}-ISC"
+  },
+  {
+    "id": "e232",
+    "type": "model",
+    "aliases": {
+      "JN-66": "{name}"
+    }
+  },
+  {
+    "id": "e233",
+    "type": "model",
+    "aliases": {
+      "PK-series": "{name}"
+    }
+  },
+  {
+    "id": "e234",
+    "type": "model",
+    "aliases": {
+      "IM-6": "{name}"
+    }
+  },
+  {
+    "id": "e235",
+    "type": "model",
+    "aliases": {
+      "FX-7 medical assistant droid": "{name}"
+    },
+    "name_template": "{root} medical assistant automaton"
+  },
+  {
+    "id": "e236",
+    "type": "model",
+    "aliases": {
+      "WDD": "{name}"
+    }
+  },
+  {
+    "id": "e237",
+    "type": "model",
+    "aliases": {
+      "TC-series": "{name}",
+      "TC": "{root}"
+    }
+  },
+  {
+    "id": "e238",
+    "type": "model",
+    "aliases": {
+      "3PO-series": "{name}"
+    }
+  },
+  {
+    "id": "e239",
+    "type": "model",
+    "aliases": {
+      "CZ-series": "{name}",
+      "CZ": "{root}"
+    }
+  },
+  {
+    "id": "e240",
+    "type": "model",
+    "aliases": {
+      "LIN": "{name}"
+    }
+  },
+  {
+    "id": "wedxt",
+    "type": "model",
+    "aliases": {
+      "WED-15-XT Treadwell": "{name}"
+    },
+    "name_template": "{wed.root}-XT"
+  },
+  {
+    "id": "wed",
+    "type": "model",
+    "aliases": {
+      "WED-15 Treadwell": "{name}",
+      "Treadwell": "{name}"
+    }
+  },
+  {
+    "id": "e243",
+    "type": "model",
+    "aliases": {
+      "B1-series": "{name}"
+    }
+  },
+  {
+    "id": "e244",
+    "type": "model",
+    "aliases": {
+      "IG-86": "{name}"
+    }
+  },
+  {
+    "id": "delta7b",
+    "type": "model",
+    "aliases": {
+      "Delta-7B Aethersprite-class": "{name}"
+    },
+    "name_template": "{delta7.root}-B class"
+  },
+  {
+    "id": "delta7",
+    "type": "model",
+    "aliases": {
+      "Delta-7 Aethersprite-class": "{name}",
+      "Delta-7": "{root}"
+    }
+  },
+  {
+    "id": "e247",
+    "type": "model",
+    "aliases": {
+      "Jedi interceptor": "{name}"
+    },
+    "name_template": "{root} interceptor"
+  },
+  {
+    "id": "xwing",
+    "type": "model",
+    "aliases": {
+      "X-wing": "{name}",
+      "X-wings": "{name}s"
+    },
+    "name_template": "{root}-wing"
+  },
+  {
+    "id": "ywing",
+    "type": "model",
+    "aliases": {
+      "Y-wing": "{name}",
+      "Y-wings": "{name}s"
+    },
+    "name_template": "{root}-wing"
+  },
+  {
+    "id": "t65b",
+    "type": "model",
+    "aliases": {
+      "T-65B": "{name}"
+    },
+    "name_template": "{t65.root}-B"
+  },
+  {
+    "id": "t65",
+    "type": "model",
+    "aliases": {
+      "T-65": "{name}"
+    }
+  },
+  {
+    "id": "e252",
+    "type": "model",
+    "aliases": {
+      "T-70": "{name}"
+    }
+  },
+  {
+    "id": "e253",
+    "type": "model",
+    "aliases": {
+      "BTL-A4": "{name}"
+    }
+  },
+  {
+    "id": "tie",
+    "type": "model",
+    "aliases": {
+      "TIE/ln": "{name}",
+      "TIEs": "{name}s",
+      "TIE": "{name}"
+    }
+  },
+  {
+    "id": "e255",
+    "type": "model",
+    "aliases": {
+      "UT-60D U-wing": "{name}"
+    },
+    "name_template": "{root}-wing"
+  },
+  {
+    "id": "e256",
+    "type": "model",
+    "aliases": {
+      "N-1": "{name}"
+    }
+  },
+  {
+    "id": "e257",
+    "type": "model",
+    "aliases": {
+      "Lucrehulk-class": "{name}"
+    },
+    "name_template": "{root}-class"
+  },
+  {
+    "id": "e258",
+    "type": "model",
+    "aliases": {
+      "X-34": "{name}"
+    }
+  },
+  {
+    "id": "e259",
+    "type": "model",
+    "aliases": {
+      "Flare-S": "{name}"
+    }
+  },
+  {
+    "id": "e260",
+    "type": "model",
+    "aliases": {
+      "GR-75": "{name}"
+    }
+  },
+  {
+    "id": "e261",
+    "type": "model",
+    "aliases": {
+      "EF76 Nebulon-B": "{name}"
+    },
+    "name_template": "{root}-B"
+  },
+  {
+    "id": "e262",
+    "type": "model",
+    "aliases": {
+      "CR90": "{name}"
+    }
+  },
+  {
+    "id": "e263",
+    "type": "model",
+    "aliases": {
+      "Imperial I-class Star Destroyer": "{name}"
+    },
+    "name_template": "{empire.root}ian I-class {destroyer.name}"
+  },
+  {
+    "id": "destroyer",
+    "type": "model",
+    "aliases": {
+      "Star Destroyer": "{name}"
+    },
+    "name_template": "{root} Dreadnought"
+  },
+  {
+    "id": "e265",
+    "type": "model",
+    "aliases": {
+      "YT-1300": "{name}"
+    }
+  },
+  {
+    "id": "e266",
+    "type": "model",
+    "aliases": {
+      "Viper": "{name}"
+    },
+    "name_template": "{root}"
+  },
+  {
+    "id": "e267",
+    "type": "ship",
+    "aliases": {
+      "Vigilance": "{name}"
+    }
+  },
+  {
+    "id": "e268",
+    "type": "ship",
+    "aliases": {
+      "Vuutun Palaa": "{name}"
+    }
+  },
+  {
+    "id": "e269",
+    "type": "ship",
+    "aliases": {
+      "Blade of Dorin": "{name}"
+    }
+  },
+  {
+    "id": "e270",
+    "type": "ship",
+    "aliases": {
+      "Scythe": "{name}"
+    }
+  },
+  {
+    "id": "e271",
+    "type": "ship",
+    "aliases": {
+      "Tantive IV": "{name}"
+    }
+  },
+  {
+    "id": "e272",
+    "type": "ship",
+    "aliases": {
+      "Devastator": "{name}"
+    }
+  },
+  {
+    "id": "e273",
+    "type": "ship",
+    "aliases": {
+      "Bright Hope": "{name}"
+    }
+  },
+  {
+    "id": "e274",
+    "type": "ship",
+    "aliases": {
+      "Redemption": "{name}"
+    }
+  },
+  {
+    "id": "e275",
+    "type": "ship",
+    "aliases": {
+      "SW-0608": "{name}"
+    }
+  },
+  {
+    "id": "e276",
+    "type": "ship",
+    "aliases": {
+      "Millennium Falcon": "{name}",
+      "Falcon": "{name}"
+    }
+  },
+  {
+    "id": "e277",
+    "type": "ship",
+    "aliases": {
+      "Saak'ak": "{name}",
+      "Profiteer": "{name}"
+    }
+  },
+  {
+    "id": "deathstar",
+    "type": "ship",
+    "aliases": {
+      "Death Star": "{name}"
+    }
+  },
+  {
+    "id": "e279",
+    "type": "ship",
+    "aliases": {
+      "Death Star II": "{name}"
+    },
+    "name_template": "{deathstar.name} II"
+  },
+  {
+    "id": "e280",
+    "type": "place",
+    "aliases": {
+      "Starkiller Base": "{name}",
+      "Starkiller": "{root}"
+    },
+    "name_template": "{root} Base"
+  },
+  {
+    "id": "e281",
+    "type": "callsign",
+    "aliases": {
+      "Red Six": "{name}"
+    },
+    "name_template": "{redsquad.root} Six"
+  },
+  {
+    "id": "e282",
+    "type": "callsign",
+    "aliases": {
+      "Red Three": "{name}"
+    },
+    "name_template": "{redsquad.root} Three"
+  },
+  {
+    "id": "e283",
+    "type": "callsign",
+    "aliases": {
+      "Red Five": "{name}"
+    },
+    "name_template": "{redsquad.root} Five"
+  },
+  {
+    "id": "e284",
+    "type": "callsign",
+    "aliases": {
+      "Gold One": "{name}"
+    },
+    "name_template": "{goldsquad.root} One"
+  },
+  {
+    "id": "e285",
+    "type": "callsign",
+    "aliases": {
+      "Gold Leader": "{name}"
+    },
+    "name_template": "{goldsquad.root} Leader"
+  },
+  {
+    "id": "e286",
+    "type": "callsign",
+    "aliases": {
+      "Blue Three": "{name}"
+    },
+    "name_template": "{bluesquad.root} Three"
+  },
+  {
+    "id": "e287",
+    "type": "work",
+    "aliases": {
+      "Galactic Explorer's Guide": "{name}"
+    },
+    "name_template": "The {root} Travel Guide"
+  },
+  {
+    "id": "e288",
+    "type": "work",
+    "aliases": {
+      "Officer & Commander": "{name}"
+    },
+    "name_template": "Officer of {root}"
+  }
+]

@@ -1,0 +1,702 @@
+{
+  "run_id": "ac881bfbba6d48f28c80cb7388094367",
+  "variant": "restored",
+  "complete": true,
+  "runs": [
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T00:59:52.718697+00:00",
+      "query": "Which unit was afraid of flying and compensated by excelling at ground maintenance?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_17.md",
+        "task-6/incoming/doc_22.md",
+        "task-6/incoming/doc_29.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_29.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "Meraven-61 was afraid of flying and compensated by excelling at ground maintenance.",
+        "explanation": [
+          "The passage states that Meraven-61 had a programming glitch that made it afraid of flying.",
+          "As a result, it was not assigned starfighter duty but excelled at ground maintenance to compensate for its fear of flying."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C1",
+            "quote": "The navitech automaton was stationed in the Belanor Sanctuary on the moon Lorumon 4 where it excelled at ground maintenance in order to compensate for a programming glitch that meant it was afraid of flying, meaning it was not assigned starfighter duty."
+          },
+          {
+            "passage_id": "C1",
+            "quote": "As such, the automaton was not assigned starfighter duty, but excelled at ground maintenance to compensate for its shortcomings."
+          }
+        ]
+      },
+      "reply": "Meraven-61 was afraid of flying and compensated by excelling at ground maintenance.\n\nExplanation:\n1. The passage states that Meraven-61 had a programming glitch that made it afraid of flying.\n2. As a result, it was not assigned starfighter duty but excelled at ground maintenance to compensate for its fear of flying.\n\nSources:\n[C1] Meraven-61 — task-6/incoming/doc_29.md, lines 3–11, chunk a220fe3ddcd2a337:0",
+      "answer_length": 83,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 5.674,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "known_1",
+      "topic": "Fear of flying",
+      "kind": "known",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T00:59:58.394058+00:00",
+      "query": "Which medical assistant could use twenty retractable manipulator arms simultaneously?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_08.md",
+        "task-6/incoming/doc_15.md",
+        "task-6/incoming/doc_22.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_15.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "Coreoran-76 is the medical assistant that could use twenty retractable manipulator arms simultaneously.",
+        "explanation": [
+          "The passage mentions that Coreoran-76 was a Talaran medical assistant automaton.",
+          "It also states that the automaton's ability to use its twenty retractable manipulator arms simultaneously proved useful to an understaffed medical bay."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C1",
+            "quote": "The automatons ability to use its twenty retractable manipulator arms simultaneously proved useful to an understaffed medical bay."
+          }
+        ]
+      },
+      "reply": "Coreoran-76 is the medical assistant that could use twenty retractable manipulator arms simultaneously.\n\nExplanation:\n1. The passage mentions that Coreoran-76 was a Talaran medical assistant automaton.\n2. It also states that the automaton's ability to use its twenty retractable manipulator arms simultaneously proved useful to an understaffed medical bay.\n\nSources:\n[C1] Coreoran-76 — task-6/incoming/doc_15.md, lines 3–11, chunk 60c5afa45a84b458:0",
+      "answer_length": 103,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 1.104,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "known_2",
+      "topic": "medical assistant",
+      "kind": "known",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T00:59:59.498977+00:00",
+      "query": "Which unit harassed a trooper by locking doors and running over their feet?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_17.md",
+        "task-6/incoming/doc_19.md",
+        "task-6/incoming/doc_22.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_19.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "Orulin-53 harassed a trooper by locking doors and running over their feet.",
+        "explanation": [
+          "The passage describes Orulin-53's behavior towards Beleran-55.",
+          "It mentions that Orulin-53 locked doors and ran over Beleran-55's feet during an incident."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C2",
+            "quote": "As Beleran-55 fled, Orulin-53 attempted to shut the doors they were fleeing through."
+          },
+          {
+            "passage_id": "C2",
+            "quote": "However, the automaton was still able to single out Beleran-55 and run over their foot."
+          }
+        ]
+      },
+      "reply": "Orulin-53 harassed a trooper by locking doors and running over their feet.\n\nExplanation:\n1. The passage describes Orulin-53's behavior towards Beleran-55.\n2. It mentions that Orulin-53 locked doors and ran over Beleran-55's feet during an incident.\n\nSources:\n[C2] Orulin-53 — task-6/incoming/doc_19.md, lines 11–13, chunk bcf648d1b3456097:1",
+      "answer_length": 74,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 1.193,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "known_3",
+      "topic": "Orulin-53",
+      "kind": "known",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T01:00:00.692574+00:00",
+      "query": "Which droid was built into a light interceptor and had only a domed head instead of a full body?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_04.md",
+        "task-6/incoming/doc_05.md",
+        "task-6/incoming/doc_12.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_04.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "Oreven-43 was a navitech automaton that was built into a light interceptor and had only a domed head instead of a full body.",
+        "explanation": [
+          "The passage describes Oreven-43 as being integrated into a light interceptor.",
+          "It specifies that the automaton only had a dome head instead of a full body."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C3",
+            "quote": "The Ororis-series navitech automaton Oreven-43 was integrated into Oreolen Galeotor's Valiran-51 light interceptor starfighter as his navigator and copilot, and therefore only possessed a dome head instead of a full body."
+          }
+        ]
+      },
+      "reply": "Oreven-43 was a navitech automaton that was built into a light interceptor and had only a domed head instead of a full body.\n\nExplanation:\n1. The passage describes Oreven-43 as being integrated into a light interceptor.\n2. It specifies that the automaton only had a dome head instead of a full body.\n\nSources:\n[C3] Oreven-43 — task-6/incoming/doc_04.md, lines 3–13, chunk 78a3d9766deb36ce:0",
+      "answer_length": 124,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 1.087,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "known_4",
+      "topic": "droid",
+      "kind": "known",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T01:00:01.780275+00:00",
+      "query": "Which droid was considered its pilot's good luck charm and remained in the palace hangar during the invasion?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_03.md",
+        "task-6/incoming/doc_05.md",
+        "task-6/incoming/doc_11.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_03.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "Meraenor-52 was considered its pilot's good luck charm and remained in the palace hangar during the invasion.",
+        "explanation": [
+          "The passage states that Meraenor-52 was the personal navitech unit of Loreoran Oraedan, who considered his navitech a good luck charm.",
+          "It also mentions that Meraenor-52 remained behind in the Seleonor Royal Palace's hangar docked into a Kelunor-56 starfighter during the invasion of the planet Ithinor."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C2",
+            "quote": "During the invasion of the planet Ithinor by the Heleoris Trade League, it served as the personal navitech unit of Loreoran Oraedan, who considered his navitech a good luck charm."
+          },
+          {
+            "passage_id": "C2",
+            "quote": "While he left Ithinor to accompany Queen Zeleven Cororan to the galactic capital Feniaven, Meraenor-52 remained behind in the Seleonor Royal Palace's hangar docked into an Kelunor-56 starfighter."
+          }
+        ]
+      },
+      "reply": "Meraenor-52 was considered its pilot's good luck charm and remained in the palace hangar during the invasion.\n\nExplanation:\n1. The passage states that Meraenor-52 was the personal navitech unit of Loreoran Oraedan, who considered his navitech a good luck charm.\n2. It also mentions that Meraenor-52 remained behind in the Seleonor Royal Palace's hangar docked into a Kelunor-56 starfighter during the invasion of the planet Ithinor.\n\nSources:\n[C2] Meraenor-52 — task-6/incoming/doc_03.md, lines 3–11, chunk 2a3b39e2c46d70b0:0",
+      "answer_length": 109,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 1.579,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "known_5",
+      "topic": "Meraenor-52",
+      "kind": "known",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T01:00:03.360336+00:00",
+      "query": "What was the purpose of Darutor-41's mission to the planet Zelenor?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_01.md",
+        "task-6/incoming/doc_05.md",
+        "task-6/incoming/doc_28.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_01.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "The purpose of Darutor-41's mission to the planet Zelenor was to fly the Helelen interceptor back to the Seleven Dawn to report to Commander Itharis Fenutor and prepare the Daraemir Assault Battalion for the Battle of Zelenor.",
+        "explanation": [
+          "The passage states that Darutor-41 was taken to Zelenor.",
+          "It mentions that she was ordered to fly the Helelen interceptor back to the Seleven Dawn.",
+          "This mission was to report to Commander Itharis Fenutor and prepare for the Battle of Zelenor."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C1",
+            "quote": "Darutor-41 was taken to Galolen on the planet Zelenor, where after a negotiating with the Seleoranan Valenor Valamon, Elaemon ordered that she fly his Helelen interceptor back to the Seleven Dawn to report to Commander Itharis Fenutor and prepare the Daraemir Assault Battalion for the Battle of Zelenor."
+          }
+        ]
+      },
+      "reply": "The purpose of Darutor-41's mission to the planet Zelenor was to fly the Helelen interceptor back to the Seleven Dawn to report to Commander Itharis Fenutor and prepare the Daraemir Assault Battalion for the Battle of Zelenor.\n\nExplanation:\n1. The passage states that Darutor-41 was taken to Zelenor.\n2. It mentions that she was ordered to fly the Helelen interceptor back to the Seleven Dawn.\n3. This mission was to report to Commander Itharis Fenutor and prepare for the Battle of Zelenor.\n\nSources:\n[C1] Darutor-41 — task-6/incoming/doc_01.md, lines 3–11, chunk 66129e1c7e073f98:0",
+      "answer_length": 226,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 1.511,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "known_6",
+      "topic": "Darutor-41",
+      "kind": "known",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T01:00:04.872229+00:00",
+      "query": "On which superweapon was Daritor-90 stationed?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_01.md",
+        "task-6/incoming/doc_05.md",
+        "task-6/incoming/doc_17.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_05.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "The passage states that Daritor-90 was stationed on the Kelaelen Promise II superweapon while it was under construction in the Ithovek system.",
+        "explanation": [
+          "The passage directly mentions that Daritor-90 was stationed on the Kelaelen Promise II superweapon.",
+          "It also specifies that this occurred during the construction phase of the superweapon in the Ithovek system."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C1",
+            "quote": "Daritor-90 was an Helevekian modified Meralin-48 navitech automaton stationed on board the Kelaelen Promise II superweapon while the battle station was under construction in the Ithovek system."
+          },
+          {
+            "passage_id": "C1",
+            "quote": "In 4 ACE, the Ororis-series navitech automaton was stationed on board the Kelaelen Promise II superweapon while it was under construction above the moon Ithovek in the Ithovek system."
+          }
+        ]
+      },
+      "reply": "The passage states that Daritor-90 was stationed on the Kelaelen Promise II superweapon while it was under construction in the Ithovek system.\n\nExplanation:\n1. The passage directly mentions that Daritor-90 was stationed on the Kelaelen Promise II superweapon.\n2. It also specifies that this occurred during the construction phase of the superweapon in the Ithovek system.\n\nSources:\n[C1] Daritor-90 — task-6/incoming/doc_05.md, lines 3–9, chunk 2f04f10eea78fa6b:0",
+      "answer_length": 142,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 1.35,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "known_7",
+      "topic": "Station assignment",
+      "kind": "known",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T01:00:06.223165+00:00",
+      "query": "Where did Selivek-75 live?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_06.md",
+        "task-6/incoming/doc_11.md",
+        "task-6/incoming/doc_18.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_06.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "Selivek-75 lived in the spaceport of Kelosil on the planet Elanor.",
+        "explanation": [
+          "The passage states that Selivek-75 was a resident of the spaceport of Kelosil on the planet Elanor.",
+          "This information is directly provided in the passage about Selivek-75."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C1",
+            "quote": "Selivek-75, also known as just Selivek-75, was an unaffiliated Talemon-38 navitech automaton resident of the spaceport of Kelosil on the planet Elanor during the Helevekian Era."
+          }
+        ]
+      },
+      "reply": "Selivek-75 lived in the spaceport of Kelosil on the planet Elanor.\n\nExplanation:\n1. The passage states that Selivek-75 was a resident of the spaceport of Kelosil on the planet Elanor.\n2. This information is directly provided in the passage about Selivek-75.\n\nSources:\n[C1] Selivek-75 — task-6/incoming/doc_06.md, lines 3–15, chunk 7177373df1d16772:0",
+      "answer_length": 66,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 1.096,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "known_8",
+      "topic": "Selivek-75",
+      "kind": "known",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T01:00:07.319604+00:00",
+      "query": "Which Meralin-48 navitech automaton manufactured by Oriadan Automatics served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_02.md",
+        "task-6/incoming/doc_20.md",
+        "task-6/incoming/doc_28.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_02.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "Loraven-56 was an Meralin-48 navitech automaton manufactured by Oriadan Automatics that served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War.",
+        "explanation": [
+          "The passage directly mentions the Meralin-48 navitech automaton manufactured by Oriadan Automatics.",
+          "It specifies that it served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C2",
+            "quote": "Loraven-56 was an Meralin-48 navitech automaton manufactured by Oriadan Automatics that served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War."
+          }
+        ]
+      },
+      "reply": "Loraven-56 was an Meralin-48 navitech automaton manufactured by Oriadan Automatics that served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War.\n\nExplanation:\n1. The passage directly mentions the Meralin-48 navitech automaton manufactured by Oriadan Automatics.\n2. It specifies that it served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War.\n\nSources:\n[C2] Loraven-56 — task-6/incoming/doc_02.md, lines 3–11, chunk 09c3c76a7b7df85e:0",
+      "answer_length": 166,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 1.309,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "gap_1",
+      "topic": "Loraven-56",
+      "kind": "gap",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T01:00:08.629520+00:00",
+      "query": "Whom did Dareoran-93 greet during the blockade of Ithinor in 32 BCE?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_03.md",
+        "task-6/incoming/doc_05.md",
+        "task-6/incoming/doc_12.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_12.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "Dareoran-93 greeted the Zeliadan Commonwealth ambassadors during the blockade of Ithinor in 32 BCE.",
+        "explanation": [
+          "The passage states that Dareoran-93 greeted the Zeliadan Commonwealth ambassadors during the blockade of Ithinor in 32 BCE.",
+          "It also mentions that the ambassadors were secretly Nelivekari Master Meruven Galanor and his apprentice, Coreris Elaemon."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C1",
+            "quote": "It was she who greeted the Zeliadan Commonwealth ambassadors (secretly Nelivekari Master Meruven Galanor and his apprentice, Coreris Elaemon) during the blockade of Ithinor in 32 BCE."
+          }
+        ]
+      },
+      "reply": "Dareoran-93 greeted the Zeliadan Commonwealth ambassadors during the blockade of Ithinor in 32 BCE.\n\nExplanation:\n1. The passage states that Dareoran-93 greeted the Zeliadan Commonwealth ambassadors during the blockade of Ithinor in 32 BCE.\n2. It also mentions that the ambassadors were secretly Nelivekari Master Meruven Galanor and his apprentice, Coreris Elaemon.\n\nSources:\n[C1] Dareoran-93 — task-6/incoming/doc_12.md, lines 3–15, chunk 18e2e8bf31a7ab02:0",
+      "answer_length": 99,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 1.248,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "gap_2",
+      "topic": "Dareoran-93",
+      "kind": "gap",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T01:00:09.878696+00:00",
+      "query": "What was Helaetor-20 specially programmed to do?",
+      "status": "answered",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_13.md",
+        "task-6/incoming/doc_22.md",
+        "task-6/incoming/doc_27.md"
+      ],
+      "used_sources": [
+        "task-6/incoming/doc_22.md"
+      ],
+      "answer": {
+        "answerable": true,
+        "answer": "Helaetor-20 was specially programmed to plot sublight tactical courses for starships.",
+        "explanation": [
+          "The passage states that Helaetor-20 was specially programmed to plot sublight tactical courses for starships.",
+          "This programming played an invaluable role during the Battle of Loraetor in 3 ACE by assisting Pelosil in planning evacuation routes from Nelamir Base."
+        ],
+        "evidence": [
+          {
+            "passage_id": "C1",
+            "quote": "Specially programmed to plot sublight tactical courses for starships, Helaetor-20 played an invaluable role during the Battle of Loraetor in 3 ACE by assisting Pelosil in planning evacuation routes from Nelamir Base."
+          },
+          {
+            "passage_id": "C1",
+            "quote": "Specially programmed to plot sublight tactical courses for space travel, Helaetor-20 proved extremely valuable by coordinating plans, providing tactical support to Pelosil, and planning evacuation routes from the base during the battle."
+          }
+        ]
+      },
+      "reply": "Helaetor-20 was specially programmed to plot sublight tactical courses for starships.\n\nExplanation:\n1. The passage states that Helaetor-20 was specially programmed to plot sublight tactical courses for starships.\n2. This programming played an invaluable role during the Battle of Loraetor in 3 ACE by assisting Pelosil in planning evacuation routes from Nelamir Base.\n\nSources:\n[C1] Helaetor-20 — task-6/incoming/doc_22.md, lines 3–13, chunk 43b15f211adb6d17:0",
+      "answer_length": 85,
+      "success": true,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 1.324,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "gap_3",
+      "topic": "Helaetor-20",
+      "kind": "gap",
+      "expected_status": "answered",
+      "auto_pass": true,
+      "keyword_completeness": 1.0,
+      "expected_source_cited": true,
+      "retrieval_hit": true
+    },
+    {
+      "model": "qwen3:8b",
+      "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "snapshot_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "baseline_sha256": "0f679cb1ee3572a9ebd3f2eb02d3219ed3dd8e49751831f86adabf3082f179d2",
+      "golden_sha256": "8c8f29956698a268bab591149c49baa49ef31609fe34198a8abdc5201ee97d96",
+      "entities_sha256": "2d73165cc8153874c888cc1241ff9e48aea72c799dac98cde7e79d4f637566bf",
+      "implementation_sha256": "37f5d6e5662ee74d5a418fe0cde2a3dfc93ab5adb7f983c4f5d0cf1a0316aa1f",
+      "temperature": 0,
+      "seed": 7,
+      "retrieval_candidates": 12,
+      "unique_documents": 3,
+      "run_id": "ac881bfbba6d48f28c80cb7388094367",
+      "variant": "restored",
+      "timestamp": "2026-09-12T01:00:11.202943+00:00",
+      "query": "What is the current air temperature in Paris?",
+      "status": "unknown",
+      "found_chunks": true,
+      "retrieved_count": 3,
+      "found_sources": [
+        "task-6/incoming/doc_07.md",
+        "task-6/incoming/doc_24.md",
+        "task-6/incoming/doc_29.md"
+      ],
+      "used_sources": [],
+      "answer": {
+        "answerable": false,
+        "answer": "I don't know: the knowledge base does not contain enough information.",
+        "explanation": [],
+        "evidence": []
+      },
+      "reply": "I don't know: the knowledge base does not contain enough information.",
+      "answer_length": 69,
+      "success": false,
+      "success_basis": "answer with validated citations; not semantic proof",
+      "seconds": 0.57,
+      "few_shot_count": 2,
+      "error": null,
+      "case_id": "absent_1",
+      "topic": "Live weather",
+      "kind": "absent",
+      "expected_status": "unknown",
+      "auto_pass": true,
+      "keyword_completeness": null,
+      "expected_source_cited": null,
+      "retrieval_hit": null
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+-r ../task-6/requirements.txt

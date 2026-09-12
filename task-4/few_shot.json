@@ -1,0 +1,65 @@
+{
+  "index_sha256": "c03fd1478484358741c548e48a24a17c9e815945d2f76a3bf47f345e5977818b",
+  "examples": [
+    {
+      "question": "What does the passage say about Darutor-41?",
+      "passage": {
+        "chunk_id": "doc_01:000",
+        "source": "task-2/knowledge_base/doc_01.md",
+        "title": "Darutor-41",
+        "chunk_index": 0,
+        "start_char": 16,
+        "end_char": 1429,
+        "start_line": 3,
+        "end_line": 11,
+        "word_count": 218,
+        "text": "Darutor-41 was a feminine navitech automaton with white plating, bronze outlines, and a green sensor.",
+        "passage_id": "EXAMPLE1"
+      },
+      "response": {
+        "answerable": true,
+        "answer": "The passage states: Darutor-41 was a feminine navitech automaton with white plating, bronze outlines, and a green sensor.",
+        "explanation": [
+          "The passage describes the specified entity.",
+          "The answer reproduces information from that description."
+        ],
+        "evidence": [
+          {
+            "passage_id": "EXAMPLE1",
+            "quote": "Darutor-41 was a feminine navitech automaton with white plating, bronze outlines, and a green sensor."
+          }
+        ]
+      }
+    },
+    {
+      "question": "What does the passage say about Loraven-56?",
+      "passage": {
+        "chunk_id": "doc_02:000",
+        "source": "task-2/knowledge_base/doc_02.md",
+        "title": "Loraven-56",
+        "chunk_index": 0,
+        "start_char": 16,
+        "end_char": 1421,
+        "start_line": 3,
+        "end_line": 11,
+        "word_count": 215,
+        "text": "Loraven-56 was an Meralin-48 navitech automaton manufactured by Oriadan Automatics that served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War.",
+        "passage_id": "EXAMPLE2"
+      },
+      "response": {
+        "answerable": true,
+        "answer": "The passage states: Loraven-56 was an Meralin-48 navitech automaton manufactured by Oriadan Automatics that served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War.",
+        "explanation": [
+          "The passage describes the specified entity.",
+          "The answer reproduces information from that description."
+        ],
+        "evidence": [
+          {
+            "passage_id": "EXAMPLE2",
+            "quote": "Loraven-56 was an Meralin-48 navitech automaton manufactured by Oriadan Automatics that served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War."
+          }
+        ]
+      }
+    }
+  ]
+}

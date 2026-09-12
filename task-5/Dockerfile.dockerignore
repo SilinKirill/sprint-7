@@ -1,0 +1,17 @@
+# Allow only implementation files, never the private corpus, token or results.
+**
+!task-3/
+!task-3/common.py
+!task-3/search.py
+!task-3/requirements.txt
+!task-4/
+!task-4/rag.py
+!task-4/prompts.py
+!task-4/requirements.txt
+!task-5/
+!task-5/*.py
+!task-5/requirements.txt
+!task-5/questions.json
+!task-5/malicious.txt
+!task-5/Dockerfile
+!task-5/Dockerfile.dockerignore
