@@ -1,0 +1,17 @@
+[
+  {
+    "id": "E1",
+    "source": "task-6/incoming/doc_02.md",
+    "aliases": ["Loraven-56"]
+  },
+  {
+    "id": "E2",
+    "source": "task-6/incoming/doc_12.md",
+    "aliases": ["Dareoran-93"]
+  },
+  {
+    "id": "E3",
+    "source": "task-6/incoming/doc_22.md",
+    "aliases": ["Helaetor-20"]
+  }
+]

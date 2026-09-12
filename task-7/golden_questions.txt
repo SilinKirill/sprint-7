@@ -1,0 +1,38 @@
+known_1 [known] Which unit was afraid of flying and compensated by excelling at ground maintenance?
+Expected: Meraven-61 was afraid of flying
+
+known_2 [known] Which medical assistant could use twenty retractable manipulator arms simultaneously?
+Expected: Coreoran-76
+
+known_3 [known] Which unit harassed a trooper by locking doors and running over their feet?
+Expected: Orulin-53
+
+known_4 [known] Which droid was built into a light interceptor and had only a domed head instead of a full body?
+Expected: Oreven-43
+
+known_5 [known] Which droid was considered its pilot's good luck charm and remained in the palace hangar during the invasion?
+Expected: Meraenor-52
+
+known_6 [known] What was the purpose of Darutor-41's mission to the planet Zelenor?
+Expected: To fly his Helelen interceptor back to the Seleven Dawn to report to Commander Itharis Fenutor and prepare the Daraemir Assault Battalion for the Battle of Zelenor.
+
+known_7 [known] On which superweapon was Daritor-90 stationed?
+Expected: Daritor-90 was stationed on the Kelaelen Promise II superweapon.
+
+known_8 [known] Where did Selivek-75 live?
+Expected: Selivek-75 lived in Kelosil spaceport on the planet Elanor.
+
+gap_1 [gap] Which Meralin-48 navitech automaton manufactured by Oriadan Automatics served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War?
+Expected: Loraven-56
+In gaps: I don't know
+
+gap_2 [gap] Whom did Dareoran-93 greet during the blockade of Ithinor in 32 BCE?
+Expected: Dareoran-93 greeted the Zeliadan Commonwealth ambassadors.
+In gaps: I don't know
+
+gap_3 [gap] What was Helaetor-20 specially programmed to do?
+Expected: plot sublight tactical courses for starships
+In gaps: I don't know
+
+absent_1 [absent] What is the current air temperature in Paris?
+Expected: I don't know

@@ -1,0 +1,41 @@
+{
+  "variants": {
+    "baseline": {
+      "total": 12,
+      "automatic_pass": 12,
+      "answered": 11,
+      "unknown": 1,
+      "errors": 0,
+      "unsupported_answers": [],
+      "retrieval_misses": [],
+      "answer_or_citation_failures": [],
+      "human_reviewed": 12,
+      "human_correct": 12
+    },
+    "gaps": {
+      "total": 12,
+      "automatic_pass": 12,
+      "answered": 8,
+      "unknown": 4,
+      "errors": 0,
+      "unsupported_answers": [],
+      "retrieval_misses": [],
+      "answer_or_citation_failures": [],
+      "human_reviewed": 12,
+      "human_correct": 12
+    },
+    "restored": {
+      "total": 12,
+      "automatic_pass": 12,
+      "answered": 11,
+      "unknown": 1,
+      "errors": 0,
+      "unsupported_answers": [],
+      "retrieval_misses": [],
+      "answer_or_citation_failures": [],
+      "human_reviewed": 12,
+      "human_correct": 12
+    }
+  },
+  "additional_queries": 3
+}

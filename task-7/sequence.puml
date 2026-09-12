@@ -1,0 +1,62 @@
+@startuml
+title Задание 7: от вопроса к оценке покрытия
+hide footbox
+skinparam maxMessageSize 220
+actor "Пользователь" as User
+participant "Бот / evaluate.py\nRAG и логирование" as Bot
+database "Индекс\nbaseline / gaps / restored" as Index
+participant "Ollama" as LLM
+database "Логи и результаты" as Files
+participant "analyze.py" as Analyze
+
+note over Bot, Index
+  Индекс проверяется при запуске сессии.
+  Повреждённый снимок останавливает запуск.
+end note
+
+== Вопрос и ответ ==
+User -> Bot : вопрос (в тесте — из золотого набора)
+Bot -> Index : найти и отфильтровать чанки
+Index --> Bot : контекст или ошибка
+alt ошибка поиска / перечитывания индекса
+  Bot -> Bot : статус error
+else пустой индекс / нет безопасных чанков
+  Bot -> Bot : unknown / filtered; без генерации
+else контекст найден
+  Bot -> LLM : вопрос + контекст + инструкции
+  alt сбой генерации
+    LLM --> Bot : ошибка
+    Bot -> Bot : статус error
+  else получен результат
+    LLM --> Bot : ответ или отказ, ссылки на цитаты
+    Bot -> Bot : проверить формат, цитаты и безопасность
+    note right of Bot
+      answered — ответ с источником;
+      unknown — данных недостаточно;
+      filtered — выход заблокирован;
+      error — неверный формат или ссылка.
+    end note
+  end
+end
+opt вопрос из золотого набора
+  Bot -> Bot : сравнить статус, ключевые слова и источники с эталоном
+end
+Bot -> Files : logs.jsonl: запрос, время, чанки, источники,\nответ, длина, статус, success; автооценка для теста
+opt запуск evaluate.py
+  Bot -> Files : results/<variant>.json; после прогона — шаблон review
+end
+Bot --> User : ответ / отказ / ошибка или результат теста
+
+== Анализ после трёх прогонов ==
+User -> Files : сверить ответы с эталонами и источниками;\nзаполнить review_*.json, сохранив run_id
+User -> Analyze : сформировать отчёт
+Analyze -> Files : прочитать результаты, review и логи
+Files --> Analyze : данные трёх прогонов
+Analyze -> Analyze : проверить совместимость; сравнить покрытие
+note right of Analyze
+  Незавершённые или несовместимые
+  прогоны не сравниваются.
+end note
+Analyze -> Files : REPORT.md и summary.json\nпри совместимых завершённых прогонах
+Analyze --> User : темы с пробелами и рекомендации
+@enduml

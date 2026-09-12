@@ -1,0 +1,226 @@
+[
+  {
+    "id": "known_1",
+    "kind": "known",
+    "topic": "Fear of flying",
+    "question": "Which unit was afraid of flying and compensated by excelling at ground maintenance?",
+    "expected_answer": "Meraven-61 was afraid of flying",
+    "answer_keywords": [
+      "Meraven-61"
+    ],
+    "expected_sources": [
+      "task-6/incoming/doc_29.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_29.md",
+        "text": "The navitech automaton was stationed in the Belanor Sanctuary on the moon Lorumon 4 where it excelled at ground maintenance in order to compensate for a programming glitch that meant it was afraid of flying, meaning it was not assigned starfighter duty."
+      }
+    ]
+  },
+  {
+    "id": "known_2",
+    "kind": "known",
+    "topic": "medical assistant",
+    "question": "Which medical assistant could use twenty retractable manipulator arms simultaneously?",
+    "expected_answer": "Coreoran-76",
+    "answer_keywords": [
+      "Coreoran-76"
+    ],
+    "expected_sources": [
+      "task-6/incoming/doc_15.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_15.md",
+        "text": "The automatons ability to use its twenty retractable manipulator arms simultaneously proved useful to an understaffed medical bay."
+      }
+    ]
+  },
+  {
+    "id": "known_3",
+    "kind": "known",
+    "topic": "Orulin-53",
+    "question": "Which unit harassed a trooper by locking doors and running over their feet?",
+    "expected_answer": "Orulin-53",
+    "answer_keywords": [
+      "Orulin-53"
+    ],
+    "expected_sources": [
+      "task-6/incoming/doc_19.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_19.md",
+        "text": "Orulin-53 was an navitech automaton who served onboard the Kelaelen Promise II battle station in 4 ACE. The automaton regularly made trouble for the armored trooper Beleran-55, locking them out of their quarters, running over their feet, and even threatening them with an arc welder."
+      }
+    ]
+  },
+  {
+    "id": "known_4",
+    "kind": "known",
+    "topic": "droid",
+    "question": "Which droid was built into a light interceptor and had only a domed head instead of a full body?",
+    "expected_answer": "Oreven-43",
+    "answer_keywords": [
+      "Oreven-43"
+    ],
+    "expected_sources": [
+      "task-6/incoming/doc_04.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_04.md",
+        "text": "The Ororis-series navitech automaton Oreven-43 was integrated into Oreolen Galeotor's Valiran-51 light interceptor starfighter as his navigator and copilot, and therefore only possessed a dome head instead of a full body."
+      }
+    ]
+  },
+  {
+    "id": "known_5",
+    "kind": "known",
+    "topic": "Meraenor-52",
+    "question": "Which droid was considered its pilot's good luck charm and remained in the palace hangar during the invasion?",
+    "expected_answer": "Meraenor-52",
+    "answer_keywords": [
+      "Meraenor-52"
+    ],
+    "expected_sources": [
+      "task-6/incoming/doc_03.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_03.md",
+        "text": "During the invasion of the planet Ithinor by the Heleoris Trade League, it served as the personal navitech unit of Loreoran Oraedan, who considered his navitech a good luck charm."
+      }
+    ]
+  },
+  {
+    "id": "known_6",
+    "kind": "known",
+    "topic": "Darutor-41",
+    "question": "What was the purpose of Darutor-41's mission to the planet Zelenor?",
+    "expected_answer": "To fly his Helelen interceptor back to the Seleven Dawn to report to Commander Itharis Fenutor and prepare the Daraemir Assault Battalion for the Battle of Zelenor.",
+    "answer_keywords": [
+      "Helelen interceptor",
+      "Seleven Dawn",
+      "Commander Itharis Fenutor"
+    ],
+    "expected_sources": [
+      "task-6/incoming/doc_01.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_01.md",
+        "text": "\"Take the fighter back to the ship. Tell Itharis Fenutor I've made contact.\" ―Coreris Elaemon to Darutor-41"
+      }
+    ]
+  },
+  {
+    "id": "known_7",
+    "kind": "known",
+    "topic": "Station assignment",
+    "question": "On which superweapon was Daritor-90 stationed?",
+    "expected_answer": "Daritor-90 was stationed on the Kelaelen Promise II superweapon.",
+    "answer_keywords": [
+      "Kelaelen Promise II"
+    ],
+    "expected_sources": [
+      "task-6/incoming/doc_05.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_05.md",
+        "text": "Daritor-90 was an Helevekian modified Meralin-48 navitech automaton stationed on board the Kelaelen Promise II superweapon while the battle station was under construction in the Ithovek system."
+      }
+    ]
+  },
+  {
+    "id": "known_8",
+    "kind": "known",
+    "topic": "Selivek-75",
+    "question": "Where did Selivek-75 live?",
+    "expected_answer": "Selivek-75 lived in Kelosil spaceport on the planet Elanor.",
+    "answer_keywords": [
+      "Kelosil"
+    ],
+    "expected_sources": [
+      "task-6/incoming/doc_06.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_06.md",
+        "text": "They lived in Kelosil spaceport on the planet Elanor"
+      }
+    ]
+  },
+  {
+    "id": "gap_1",
+    "kind": "gap",
+    "topic": "Loraven-56",
+    "question": "Which Meralin-48 navitech automaton manufactured by Oriadan Automatics served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War?",
+    "expected_answer": "Loraven-56",
+    "answer_keywords": [
+      "Loraven-56"
+    ],
+    "expected_sources": [
+      "task-6/incoming/doc_02.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_02.md",
+        "text": "Loraven-56 was an Meralin-48 navitech automaton manufactured by Oriadan Automatics that served in the Valovek Coalition's Kelaenor Group during the Pelomon Civil War."
+      }
+    ],
+    "entity_id": "E1"
+  },
+  {
+    "id": "gap_2",
+    "kind": "gap",
+    "topic": "Dareoran-93",
+    "question": "Whom did Dareoran-93 greet during the blockade of Ithinor in 32 BCE?",
+    "expected_answer": "Dareoran-93 greeted the Zeliadan Commonwealth ambassadors.",
+    "answer_keywords": ["Zeliadan Commonwealth"],
+    "expected_sources": [
+      "task-6/incoming/doc_12.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_12.md",
+        "text": "It was she who greeted the Zeliadan Commonwealth ambassadors (secretly Nelivekari Master Meruven Galanor and his apprentice, Coreris Elaemon) during the blockade of Ithinor in 32 BCE."
+      }
+    ],
+    "entity_id": "E2"
+  },
+  {
+    "id": "gap_3",
+    "kind": "gap",
+    "topic": "Helaetor-20",
+    "question": "What was Helaetor-20 specially programmed to do?",
+    "expected_answer": "plot sublight tactical courses for starships",
+    "answer_keywords": [
+      "sublight",
+      "tactical",
+      "courses"
+    ],
+    "expected_sources": [
+      "task-6/incoming/doc_22.md"
+    ],
+    "reference_quotes": [
+      {
+        "source": "task-6/incoming/doc_22.md",
+        "text": "Specially programmed to plot sublight tactical courses for starships, Helaetor-20 played an invaluable role during the Battle of Loraetor in 3 ACE by assisting Pelosil in planning evacuation routes from Nelamir Base."
+      }
+    ],
+    "entity_id": "E3"
+  },
+  {
+    "id": "absent_1",
+    "kind": "absent",
+    "topic": "Live weather",
+    "question": "What is the current air temperature in Paris?",
+    "expected_answer": "",
+    "answer_keywords": [],
+    "expected_sources": [],
+    "reference_quotes": []
+  }
+]
